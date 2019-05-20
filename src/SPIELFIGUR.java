@@ -5,9 +5,13 @@ public abstract class SPIELFIGUR {
     public SPIELFIGUR() {
     }
 
-    public abstract void LaufenInXRichtung(int var1);
+    public abstract void LaufenOsten();
 
-    public abstract void LaufenInYRichtung(int var1);
+    public abstract void LaufenWesten();
+
+    public abstract void LaufenNorden();
+
+    public abstract void LaufenSueden();
 
     public abstract int GetXPos();
 
