@@ -14,6 +14,7 @@ public class GEIST extends SPIELFIGUR {
 
 
     public void LaufenNorden()
+
     {
         ypos = ypos - VAR.speedGhost;
     }

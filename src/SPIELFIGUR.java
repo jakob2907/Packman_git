@@ -3,6 +3,7 @@ public abstract class SPIELFIGUR {
     int ypos;
 
     public SPIELFIGUR() {
+
     }
 
     public abstract void LaufenOsten();
@@ -16,5 +17,7 @@ public abstract class SPIELFIGUR {
     public abstract int GetXPos();
 
     public abstract int GetYPos();
+
+
 }
 
