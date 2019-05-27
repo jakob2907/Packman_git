@@ -28,6 +28,8 @@ public class VAR {
     public static final int JfStartWeigth = 800;
     public static final int JfStartHeigth = 600;
 
+    public static final int Punkteanzahl = 100;
+
 
 
     VAR() {
