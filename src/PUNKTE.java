@@ -1,8 +1,10 @@
+import java.io.File;
+
 public class PUNKTE
 {
     PUNKTE [] punkte;
 
-
+    File file = new File("H:\\Informatik\\Packman_git\\Designs\\point.png");
 
     public PUNKTE (int XKoNew,int YKoNew )
     {

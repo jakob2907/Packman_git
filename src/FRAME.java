@@ -2,6 +2,9 @@ import javax.swing.*;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
+import java.io.File;
+
+import static java.awt.Color.black;
 
 
 public class FRAME {
@@ -12,12 +15,13 @@ public class FRAME {
 
     FRAME()
     {
+
         JFrame jfStart = new JFrame("PackMan");
         jfStart.setSize(VAR.JfStartWeigth, VAR.JfStartHeigth);
         jfStart.setLocationRelativeTo(null);
         jfStart.setResizable(false);
         jfStart.setAlwaysOnTop(true);
-        jfStart.setBackground(Color.black);
+        jfStart.setBackground(black);
 
         jfStart.setVisible(true);
 
